@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Poppins', sans-serif;
+}
+.sidebar {
+    position: fixed;
+    width: 350px;
+    height: 100%;
+    padding-top: 130px;
+    left: 0;
+    background: #3f3f4b;
+}
+
+.sidebar .image{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.sidebar h2{
+    color: #ccc;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.sidebar a{
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+.sidebar a:hover {
+    background: #fc8f00;
+}
+
+.sidebar ion-icon{
+    padding-right: 10px;
+}
+
+.main {
+    position: absolute;
+    top: 0;
+    right: 10rem;
+    bottom: 0;
+    left: 26.5rem;
+    padding: 2rem 3rem;
+}
+
+ main .conteudo {
+   padding: 4rem 0;
+   margin: 0 3.7rem;
+}
+
+.posts {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    list-style-type: none;
+    
+}
+
+ol {
+    list-style: none;
+}
+
+.divider {
+    width: 30%;
+    margin: 1.7rem 0;
+    border-top: 1px solid #ddd;
+
+}
+
+.posts>li>a>h2{
+    margin-bottom: 1rem;
+    line-height: 3rem;
+    transition: all 350ms;
+}
+
+
+.post .description{
+    margin-bottom: 1rem;
+    font: .9rem;
+    color: #999;
+    line-height: 1.7rem;
+    padding: 10px;
+}
+
+a{
+    position: relative;
+    color: #333;
+    text-decoration: none;
+    transition: all 350ms;
+}
+
+.post .meta{
+    margin: 9.52px 0px;
+    font-size: .85rem;
+    color: #ccc;
+}

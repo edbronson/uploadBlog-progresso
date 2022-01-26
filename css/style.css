@@ -5,6 +5,9 @@
     padding: 0;
     font-family:  'Poppins', sans-serif;
 }
+
+/* barra lateral fixa */
+
 .sidebar {
     position: fixed;
     width: 360px;
@@ -66,6 +69,8 @@
 .icones ul li:hover {
     color: #fc8f00;
 }
+
+/* estrutura do blog */
 
 .main {
     position: absolute;
@@ -176,7 +181,6 @@ a{
     border: 1px solid #fc8f00;
     border-radius: 20px;
     padding: 5px;
- 
     
 }
 
@@ -193,7 +197,6 @@ a{
 .copyright {
     font: inherit;
     font-size: 20px;
-    vertical-align: baseline;
     display: block;
     padding: 5% 0 5% 0;
     color: #999;

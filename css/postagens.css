@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Poppins', sans-serif;
+}
+
+/* barra lateral fixa */
+
+.sidebar {
+    position: fixed;
+    width: 360px;
+    height: 100%;
+    padding-top: 250px;
+    left: 0;
+    background: #3f3f4b;
+}
+
+.sidebar .image{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.image {
+    transition: transform 1s;
+}
+
+.image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.sidebar h2{
+    color: #ccc;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.sidebar a{
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: color;
+    text-align: center;
+}
+
+.sidebar a:hover {
+    color: #fc8f00;
+}
+
+.icones ul li {
+    display: inline;
+    color: #fff;
+    width: 200%;
+    line-height: 120px;
+    transition: 0.5s;
+    transition-property: color;
+    padding: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.icones ul li:hover {
+    color: #fc8f00;
+}
+
+
+/* página 2 - textos do blog */
+
+.btn__cabecalho {
+    font-weight: 800;
+    text-shadow: none;
+    letter-spacing: 1px;
+    border: 1px solid #fc8f00;
+    padding: 8px 12px;
+    top: 2rem;
+    left: 25rem;
+    text-decoration: none;
+    color: #3f3f4b;
+    position: absolute;
+}
+
+.meta__txt{
+    color: #ccc;
+    margin-left: 800px;
+    top: 7rem;
+    position: absolute;
+
+}
+
+.data__txt {
+    font-size: 1.467rem;
+}
+
+.tag1__txt {
+    background-color: #fc8f00;
+    padding: 2px 4px 0px 4px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: .85rem;
+    text-decoration: none;  
+}
+
+.tag2__txt {
+    background-color: #fc8f00;
+    padding: 2px 4px 0px 4px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: .85rem;
+    text-decoration: none;  
+}
+
+.tag3__txt {
+    background-color: #fc8f00;
+    padding: 2px 4px 0px 4px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: .85rem;
+    text-decoration: none;  
+}
+
+.tag4__txt {
+    background-color: #fc8f00;
+    padding: 2px 4px 0px 4px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: .85rem;
+    text-decoration: none;  
+}
+
+.conteudo_texto {
+    position: absolute;
+    top: 10rem;
+    right: 20rem;
+    bottom: 0;
+    left: 40.5rem;
+    
+}
+
+p{
+    margin: 2rem 0 2rem 0;
+}
+
+.video {
+    margin-left: 10.5rem;
+    position: absolute;
+}
+
+.conteudo_texto h2 {
+    top: 790px;
+    margin-left: 19.5rem;
+    position: absolute;
+}
+
+.conteudo_texto2 {
+    position: absolute;
+    top: 62rem;
+    right: 20rem;
+    bottom: 10rem;
+    left: 40.5rem;
+}
+
+/* box */
+
+.box {
+    display: flex;
+    flex-direction: row;
+    top: 77rem;
+    position: absolute;
+    left: 40.5rem;
+    text-align: center;
+}
+
+.box__1  {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+} 
+
+.box__2  {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+} 
+
+.box__3  {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+} 
+
+.box__4  {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    
+} 
+
+.will {
+    width: 200px;
+}
+
+h4{
+    font-size: 0.843rem;
+}
+
+.box p {
+    font-size: 0.658rem;
+}
+
+
+
+.veja__tambem{
+    top: 73rem;
+    position: absolute;
+    left: 40.5rem;
+    font-size: 1.345;
+}
+
+.divider__final {
+    width: 60%;
+    margin: 1.7rem 0;
+    border-top: 2px dotted #89898d;
+    position:absolute;
+    top: 102rem;
+    left: 30.5rem;
+}
+
+.copyright {
+    font: inherit;
+    font-size: 20px;
+    position: absolute;
+    padding: 5% 0 5% 0;
+    color: #999;
+    top: 102rem;
+    left: 30.5rem;
+}
+
+.divider {
+    width: 30%;
+    margin: 1.7rem 0;
+    border-top: 1px solid #ddd;
+    position: absolute;
+    top: 71rem;
+    left: 40.5rem;
+
+}

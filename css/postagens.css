@@ -175,6 +175,7 @@ p{
     position: absolute;
     left: 40.5rem;
     text-align: center;
+    
 }
 
 .box__1  {
@@ -211,6 +212,11 @@ p{
 
 h4{
     font-size: 0.843rem;
+}
+
+h4 a{
+    text-decoration-line: none;
+    color: #3f3f4b;
 }
 
 .box p {

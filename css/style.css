@@ -14,7 +14,7 @@
     height: 100%;
     padding-top: 250px;
     left: 0;
-    background: #3f3f4b;
+    background: hsl(0, 0%, 14%);
 }
 
 .sidebar .image{
@@ -51,7 +51,7 @@
 }
 
 .sidebar a:hover {
-    color: #fc8f00;
+    color: #ca5139;
 }
 
 .icones ul li {
@@ -67,7 +67,7 @@
 }
 
 .icones ul li:hover {
-    color: #fc8f00;
+    color: #ca5139;
 }
 
 /* estrutura do blog */
@@ -95,7 +95,7 @@
 }
 
 .posts h2:hover {
-    color: #fc8f00;
+    color: #ca5139;
     transition: 0.5s;
 }
 
@@ -139,25 +139,25 @@ a{
 
 
 .tag1 {
-    background-color: #fc8f00;
+    background-color: #ca5139;
     padding: 2px 4px 0px 4px;
     border-radius: 5px;
 }
 
 .tag2 {
-    background-color: #fc8f00;
+    background-color: #ca5139;
     padding: 2px 4px 0px 4px;
     border-radius: 5px;
 }
 
 .tag3 {
-    background-color: #fc8f00;
+    background-color: #ca5139;
     padding: 2px 4px 0px 4px;
     border-radius: 5px;
 }
 
 .tag4 {
-    background-color: #fc8f00;
+    background-color: #ca5139;
     padding: 2px 4px 0px 4px;
     border-radius: 5px;
 }
@@ -178,7 +178,7 @@ a{
     font-weight: 800;
     text-shadow: none;
     letter-spacing: 1px;
-    border: 1px solid #fc8f00;
+    border: 1px solid #ca5139;
     border-radius: 20px;
     padding: 5px;
     

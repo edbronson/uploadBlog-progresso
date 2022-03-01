@@ -14,7 +14,7 @@
     height: 100%;
     padding-top: 250px;
     left: 0;
-    background: #3f3f4b;
+    background: hsl(0, 0%, 14%);
 }
 
 .sidebar .image{
@@ -51,7 +51,7 @@
 }
 
 .sidebar a:hover {
-    color: #fc8f00;
+    color: #ca5139;
 }
 
 .icones ul li {
@@ -67,7 +67,7 @@
 }
 
 .icones ul li:hover {
-    color: #fc8f00;
+    color: #ca5139;
 }
 
 
@@ -77,7 +77,7 @@
     font-weight: 800;
     text-shadow: none;
     letter-spacing: 1px;
-    border: 1px solid #fc8f00;
+    border: 1px solid #ca5139;
     padding: 8px 12px;
     top: 2rem;
     left: 25rem;
@@ -99,7 +99,7 @@
 }
 
 .tag1__txt {
-    background-color: #fc8f00;
+    background-color: #ca5139;
     padding: 2px 4px 0px 4px;
     border-radius: 5px;
     color: #fff;
@@ -108,7 +108,7 @@
 }
 
 .tag2__txt {
-    background-color: #fc8f00;
+    background-color: #ca5139;
     padding: 2px 4px 0px 4px;
     border-radius: 5px;
     color: #fff;
@@ -117,7 +117,7 @@
 }
 
 .tag3__txt {
-    background-color: #fc8f00;
+    background-color: #ca5139;
     padding: 2px 4px 0px 4px;
     border-radius: 5px;
     color: #fff;
@@ -126,7 +126,7 @@
 }
 
 .tag4__txt {
-    background-color: #fc8f00;
+    background-color: #ca5139;
     padding: 2px 4px 0px 4px;
     border-radius: 5px;
     color: #fff;

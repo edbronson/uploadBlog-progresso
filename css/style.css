@@ -119,8 +119,11 @@ ol {
 
 a{
     position: relative;
-    color: #333;
     text-decoration: none;    
+}
+
+.titulo {
+    color: #333;
 }
 
 .meta{
@@ -139,24 +142,28 @@ a{
 
 
 .tag1 {
+    color: #fff;
     background-color: #ca5139;
     padding: 2px 4px 0px 4px;
     border-radius: 5px;
 }
 
 .tag2 {
+    color: #fff;
     background-color: #ca5139;
     padding: 2px 4px 0px 4px;
     border-radius: 5px;
 }
 
 .tag3 {
+    color: #fff;
     background-color: #ca5139;
     padding: 2px 4px 0px 4px;
     border-radius: 5px;
 }
 
 .tag4 {
+    color: #fff;
     background-color: #ca5139;
     padding: 2px 4px 0px 4px;
     border-radius: 5px;

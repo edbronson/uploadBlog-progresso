@@ -188,11 +188,13 @@ a{
     border: 1px solid #ca5139;
     border-radius: 20px;
     padding: 5px;
-    
+    color:#333;
+    transition: 0.2s ease-in;
 }
 
 .old__btn:hover {
-    color:#333;
+    background-color:#ca5139;
+    color:#fff;
 }
 
 .divider__final {
@@ -209,3 +211,10 @@ a{
     color: #999;
 }
 
+.nome {
+    color:#333
+}
+
+.nome:hover {
+    color:#ca5139;
+}

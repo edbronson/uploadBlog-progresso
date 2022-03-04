@@ -78,12 +78,19 @@
     text-shadow: none;
     letter-spacing: 1px;
     border: 1px solid #ca5139;
+    border-radius: 25px;
     padding: 8px 12px;
     top: 2rem;
     left: 25rem;
     text-decoration: none;
     color: #3f3f4b;
     position: absolute;
+    transition: 0.2s ease-in;
+}
+
+.btn__cabecalho:hover {
+    background-color:#ca5139;
+    color:#fff;
 }
 
 .meta__txt{
